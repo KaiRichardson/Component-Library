@@ -1,19 +1,23 @@
 {
-  "name": "Scrim-s05c3fi",
-  "description": "https://scrimba.com/advanced-react-c02h/~023/s08aei09nc/head",
-  "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "4.4.0",
-    "vite": "latest"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "*"
-  }
+	"name": "Component-Library",
+	"version": "1.0.0",
+	"description": "A React component library for future projects",
+	"author": "Kai Richardson",
+	"license": "MIT",
+	"scripts": {
+		"start": "vite",
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"classnames": "^2.5.1",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-icons": "4.4.0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "*",
+		"vite": "^6.3.5"
+	}
 }
