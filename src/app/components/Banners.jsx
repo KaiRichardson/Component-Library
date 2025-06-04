@@ -10,7 +10,7 @@ export default function Banners() {
 				<div className='banner-container'>
 					<span className='container-label'>SUCCESS</span>
 
-					<div>
+					<div className='banner-item'>
 						<span className='item-label'>Success - Multiline</span>
 						<Banner
 							variant='success'
@@ -21,7 +21,7 @@ export default function Banners() {
 
 					<span className='container-label'>WARNING</span>
 
-					<div>
+					<div className='banner-item'>
 						<span className='item-label'>Warning - Multiline</span>
 						<Banner
 							variant='warning'
@@ -32,7 +32,7 @@ export default function Banners() {
 
 					<span className='container-label'>ERROR</span>
 
-					<div>
+					<div className='banner-item'>
 						<span className='item-label'>Warning - Multiline</span>
 						<Banner
 							variant='error'
@@ -43,7 +43,7 @@ export default function Banners() {
 
 					<span className='container-label'>NEUTRAL</span>
 
-					<div>
+					<div className='banner-item'>
 						<span className='item-label'>Neutral - Multiline</span>
 						<Banner
 							variant='neutral'
@@ -58,21 +58,21 @@ export default function Banners() {
 				<div className='banner-container'>
 					<span className='container-label'>SUCCESS</span>
 
-					<div>
+					<div className='banner-item'>
 						<span className='item-label'>Success - Multiline</span>
 						<Banner variant='success' title='Congratulations' />
 					</div>
 
 					<span className='container-label'>WARNING</span>
 
-					<div>
+					<div className='banner-item'>
 						<span className='item-label'>Warning - Multiline</span>
 						<Banner variant='warning' title='Attention' />
 					</div>
 
 					<span className='container-label'>ERROR</span>
 
-					<div>
+					<div className='banner-item'>
 						<span className='item-label'>Warning - Multiline</span>
 						<Banner
 							variant='error'
@@ -82,7 +82,7 @@ export default function Banners() {
 
 					<span className='container-label'>NEUTRAL</span>
 
-					<div>
+					<div className='banner-item'>
 						<span className='item-label'>Neutral - Multiline</span>
 						<Banner variant='neutral' title='Update available' />
 					</div>

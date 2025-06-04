@@ -220,7 +220,7 @@ button.button-danger {
 /* Banner */
 .banners-section {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 50% auto;
 	gap: 30px;
 }
 
@@ -231,11 +231,15 @@ button.button-danger {
 
 .banner-container {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 4em auto;
 	grid-template-rows: auto auto;
 	justify-items: right;
 	align-items: center;
 	gap: 10px;
+}
+
+.banner-item {
+	width: 100%;
 }
 
 .banner {
