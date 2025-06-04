@@ -7,14 +7,14 @@ export default function Cards() {
 			<div className='cards-section'>
 				<div className='cards'>
 					<div>
-						<span className='item-label'>Card</span>
+						<p className='item-label'>Card</p>
 						<Card
 							header='Easy Deployment'
 							text='Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.'
 						/>
 					</div>
 					<div>
-						<span className='item-label'>Card - Hover</span>
+						<p className='item-label'>Card - Hover</p>
 						<Card
 							button={true}
 							header='Easy Deployment'

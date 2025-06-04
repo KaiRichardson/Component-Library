@@ -8,43 +8,43 @@ export default function Badges() {
 				<div className='badge-container'>
 					<span className='container-label'>SQUARE</span>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Gray - Square</span>
+						<p className='item-label'>Gray - Square</p>
 						<Badge variant='square' size='md'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Red - Square</span>
+						<p className='item-label'>Red - Square</p>
 						<Badge variant='square' size='md' color='red'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Yellow - Square</span>
+						<p className='item-label'>Yellow - Square</p>
 						<Badge variant='square' size='md' color='yellow'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Green - Square</span>
+						<p className='item-label'>Green - Square</p>
 						<Badge variant='square' size='md' color='green'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Blue - Square</span>
+						<p className='item-label'>Blue - Square</p>
 						<Badge variant='square' size='md' color='blue'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Purple - Square</span>
+						<p className='item-label'>Purple - Square</p>
 						<Badge variant='square' size='md' color='purple'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Pink - Square</span>
+						<p className='item-label'>Pink - Square</p>
 						<Badge variant='square' size='md' color='pink'>
 							Badge
 						</Badge>
@@ -52,43 +52,43 @@ export default function Badges() {
 
 					<span className='container-label'>PILL</span>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Gray - Pill</span>
+						<p className='item-label'>Gray - Pill</p>
 						<Badge variant='pill' size='md'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Red - Pill</span>
+						<p className='item-label'>Red - Pill</p>
 						<Badge variant='pill' size='md' color='red'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Yellow - Pill</span>
+						<p className='item-label'>Yellow - Pill</p>
 						<Badge variant='pill' size='md' color='yellow'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Green - Pill</span>
+						<p className='item-label'>Green - Pill</p>
 						<Badge variant='pill' size='md' color='green'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Blue - Pill</span>
+						<p className='item-label'>Blue - Pill</p>
 						<Badge variant='pill' size='md' color='blue'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Purple - Pill</span>
+						<p className='item-label'>Purple - Pill</p>
 						<Badge variant='pill' size='md' color='purple'>
 							Badge
 						</Badge>
 					</div>
 					<div className='badge-subContainer'>
-						<span className='item-label'>Pink - Pill</span>
+						<p className='item-label'>Pink - Pill</p>
 						<Badge variant='pill' size='md' color='pink'>
 							Badge
 						</Badge>

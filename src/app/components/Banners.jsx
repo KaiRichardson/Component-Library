@@ -11,18 +11,18 @@ export default function Banners() {
 					<span className='container-label'>SUCCESS</span>
 
 					<div className='banner-item'>
-						<span className='item-label'>Success - Multiline</span>
+						<p className='item-label'>Success - Multiline</p>
 						<Banner
 							variant='success'
 							title='Congratulations'
-							text='Lorem ipsum dolor sit amet consectetur adipisicing elit. '
+							text='Lorem ipsum dolor sit amet consectetur adipiasd asdsicing elit. '
 						/>
 					</div>
 
 					<span className='container-label'>WARNING</span>
 
 					<div className='banner-item'>
-						<span className='item-label'>Warning - Multiline</span>
+						<p className='item-label'>Warning - Multiline</p>
 						<Banner
 							variant='warning'
 							title='Attention'
@@ -33,7 +33,7 @@ export default function Banners() {
 					<span className='container-label'>ERROR</span>
 
 					<div className='banner-item'>
-						<span className='item-label'>Warning - Multiline</span>
+						<p className='item-label'>Warning - Multiline</p>
 						<Banner
 							variant='error'
 							title='There is a problem with your application'
@@ -44,7 +44,7 @@ export default function Banners() {
 					<span className='container-label'>NEUTRAL</span>
 
 					<div className='banner-item'>
-						<span className='item-label'>Neutral - Multiline</span>
+						<p className='item-label'>Neutral - Multiline</p>
 						<Banner
 							variant='neutral'
 							title='Update available'
@@ -59,31 +59,28 @@ export default function Banners() {
 					<span className='container-label'>SUCCESS</span>
 
 					<div className='banner-item'>
-						<span className='item-label'>Success - Multiline</span>
+						<p className='item-label'>Success - Multiline</p>
 						<Banner variant='success' title='Congratulations' />
 					</div>
 
 					<span className='container-label'>WARNING</span>
 
 					<div className='banner-item'>
-						<span className='item-label'>Warning - Multiline</span>
+						<p className='item-label'>Warning - Multiline</p>
 						<Banner variant='warning' title='Attention' />
 					</div>
 
 					<span className='container-label'>ERROR</span>
 
 					<div className='banner-item'>
-						<span className='item-label'>Warning - Multiline</span>
-						<Banner
-							variant='error'
-							title='There is a problem with your application'
-						/>
+						<p className='item-label'>Warning - Multiline</p>
+						<Banner variant='error' title='There is a problem with your application' />
 					</div>
 
 					<span className='container-label'>NEUTRAL</span>
 
 					<div className='banner-item'>
-						<span className='item-label'>Neutral - Multiline</span>
+						<p className='item-label'>Neutral - Multiline</p>
 						<Banner variant='neutral' title='Update available' />
 					</div>
 				</div>

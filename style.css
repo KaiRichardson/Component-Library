@@ -13,6 +13,25 @@ body {
 	background-color: #e6e7eb;
 }
 
+.item-label {
+	color: #a7a9ad;
+	font-size: 7px;
+	margin-bottom: 3px;
+}
+
+.container-label {
+	color: #727376;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.container-label-top {
+	color: #727376;
+	font-size: 12px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
 /* Star */
 .star {
 	height: 30px;
@@ -124,24 +143,6 @@ button.button-danger {
 
 .box.filled {
 	background-color: blue;
-}
-
-.container-label {
-	color: #727376;
-	font-size: 12px;
-	font-weight: 700;
-}
-
-.container-label-top {
-	color: #727376;
-	font-size: 12px;
-	font-weight: 700;
-	margin-bottom: 5px;
-}
-
-.item-label {
-	color: #a7a9ad;
-	font-size: 7px;
 }
 
 /* Badge */
@@ -358,4 +359,111 @@ button.button-danger {
 	font-weight: 400;
 	word-wrap: normal;
 	width: 95%;
+}
+
+/* Testimonials */
+.testimonials-section {
+	display: flex;
+	justify-content: center;
+}
+
+.testimonials-rows {
+	display: grid;
+	grid-template-rows: auto auto;
+	gap: 30px;
+}
+
+.testimonials-columns {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 30px;
+}
+
+.testimonial {
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding: 3% 2em;
+}
+
+.testimonial-has-img {
+	background-color: #2545b8;
+	color: #ffffff;
+}
+
+.testimonial-no-img {
+	background-color: #ffffff;
+	color: #111827;
+}
+
+.testimonial-img-container {
+	position: relative;
+	width: 50%;
+	min-width: 8em;
+}
+
+.testimonial-img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 13em;
+	width: 100%;
+}
+
+.testimonial-img > img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 6px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.testimonial-text-container {
+	padding-left: 1em;
+}
+
+.no-img {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.testimonial-icon {
+	color: #ffffff40;
+	font-size: 20px;
+}
+
+.testimonial-text {
+	padding: 2% 0;
+	font-size: 12px;
+	font-weight: 400;
+	word-wrap: normal;
+}
+
+.testimonial-name-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.testimonial-name {
+	margin: 1px 0;
+	font-size: 8px;
+	font-weight: 500;
+}
+
+.dash {
+	color: #2e59f3;
+	font-weight: 700;
+}
+
+.testimonial-vocation {
+	margin: 1px 0;
+	font-size: 8px;
+	font-weight: 300;
 }

@@ -1,10 +1,6 @@
 import classnames from "classnames";
 import { IoIosCheckmarkCircle } from "react-icons/io";
-import {
-	FaExclamationTriangle,
-	FaTimesCircle,
-	FaInfoCircle,
-} from "react-icons/fa";
+import { FaExclamationTriangle, FaTimesCircle, FaInfoCircle } from "react-icons/fa";
 
 export default function Banner({ variant, title, text, ...rest }) {
 	let variantClass = variant && `banner-${variant}`;
@@ -13,12 +9,8 @@ export default function Banner({ variant, title, text, ...rest }) {
 	return (
 		<span className={allClasses} {...rest}>
 			<div className='banner-icon'>
-				{variant === "success" && (
-					<IoIosCheckmarkCircle style={{ color: "#34d399" }} />
-				)}
-				{variant === "warning" && (
-					<FaExclamationTriangle style={{ color: "#FBBF24" }} />
-				)}
+				{variant === "success" && <IoIosCheckmarkCircle style={{ color: "#34d399" }} />}
+				{variant === "warning" && <FaExclamationTriangle style={{ color: "#FBBF24" }} />}
 				{variant === "error" && <FaTimesCircle style={{ color: "#F87171" }} />}
 				{variant === "neutral" && <FaInfoCircle style={{ color: "#60A5FA" }} />}
 			</div>
