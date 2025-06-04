@@ -283,3 +283,79 @@ button.button-danger {
 	color: #92400e;
 	background-color: #fef2f2;
 }
+
+/* Card */
+.cards-section {
+	display: flex;
+	justify-content: center;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 30px;
+	max-width: 80%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	background-color: #f9fafb;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px #0000000d;
+	padding: 20px;
+	width: 100%;
+	font-size: 12px;
+}
+
+.card-icon-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.card-icon {
+	padding: 10px;
+	box-shadow: 2px 2px 2px #00000034;
+	background-color: #3f75fe;
+	color: #ffffff;
+	font-size: 15px;
+	border: 0;
+	border-radius: 6px;
+	width: fit-content;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	cursor: default;
+}
+
+.card-icon-button:hover {
+	cursor: pointer;
+}
+
+.card-icon-button:active {
+	background-color: #3666df;
+	box-shadow: 2px 2px 2px #00000034 inset;
+}
+
+.card-header {
+	text-align: center;
+	margin: 10px 0;
+	font-weight: 700;
+}
+
+.card-text {
+	text-align: center;
+	margin: 5px 0;
+	font-weight: 400;
+	word-wrap: normal;
+	width: 95%;
+}
